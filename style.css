@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    background-color: #0D1117;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#navbar {
+    background-color: #161B22;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-links {
+    display: flex;
+   gap: 20px;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: #58A6FF;
+}
+
+#hero-section {
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 30px;
+    border-bottom: 2px solid grey;
+}
+
+#main {
+    font-size: large;
+    font-weight: 600;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid grey;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border: 1px solid #30363D;
+    border-radius: 12px;
+    width: 1200px;
+    height: 210px;
+    margin: 10px;
+    padding: 24px;
+    background-color: #161B22;
+
+}
+
+#projects-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1270px;
+    height: 240px;
+}
+
+.project-card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 1100px;
+    height: 220px;
+    margin: 0px 10px;
+    padding: 0px 24px ;
+    border-radius: 12px;
+    font-size: 15px;
+    border: 1px solid #30363D;
+    background-color: #161B22;
+
+}
+
+
+.score-card {
+    display: flex;
+    color: #58A6FF;
+    text-decoration: none;
+} 
+
+#about {
+    padding: 40px;
+    text-align: center;
+    margin: 5px;
+    font-size: large;
+    font-weight: 500;
+    border-bottom: 2px solid grey;
+}
+
+
+.underline {
+    color: #58A6FF;
+    text-decoration: underline 3px;
+}
+
+#status {
+    display: inline-flex;
+    border: none;
+    font-size: 12px;
+    word-spacing: 3px;
+    padding: 2px 10px;
+    border-radius: 80px;
+    background-color: #0C2A1F;
+    color: #04B84C;
+}
+
+.btn {
+    margin-right: 2px;
+    padding: 4px 8px;
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: #0C2035;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #339CFF;
+}
+
+.btn a:hover {
+    text-decoration: underline;
+}
+
+#linkedin-btn {
+    border: none;
+    background-color: #26292F;
+    color: #EDEDED;
+}
+#linkedin-btn a {
+    color: #EDEDED;
+}
+
+.highlight {
+    color: #339CFF;
+}
+
+.html {
+    color: #E34F26;
+}
+.js {
+    color: #F7DF1E;
+}
+.css {
+    color: #1572B6;
+}
+
+#contact {
+    margin: 40px 20px 0px 0px;
+    font-weight: 500;
+    text-align: center;
+    border-bottom: 2px solid grey;
+    width: 100%;
+}
+.mail {
+    color:  #339CFF;
+    text-decoration: none;
+}
+
+.mail:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.technologies span {
+    background-color: #30343B;
+    color: #E6EDF3;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.pjt-links {
+    color: #1572B6;
+    margin: 15px 0px;
+    border-top: 1px solid #30363D;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    margin-top: auto;
+    padding-top: 10px;
+    
+}
+
+.category {
+     
+    background-color: #102B43;
+    color: #58A6FF;
+
+    padding: 5px 12px;
+    border-radius: 20px;
+
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+.project-card2 h3 {
+    display: flex;
+    gap: 12px;
+}
+
+.project-card h3 {
+    display: flex;
+    gap: 12px;
+}
+
+.project-icon {
+   color: #58A6FF;
+      
+}
+
+
